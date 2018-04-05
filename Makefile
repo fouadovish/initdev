@@ -12,4 +12,4 @@ clean: ## clean all build files
 	@rm -f *.aux *.bak *.log *.out *.toc *.gz *.fls *.fdb_latexmk *.dvi *.nav *.snm *.vrb
 
 show: ## show pdf
-evince initdev_cc.pdf
+	evince initdev_cc.pdf
